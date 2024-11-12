@@ -12,12 +12,14 @@ auto_input_pwd(){
 
 }
 
-echo '>>>>授权....'
-chmod -R 777 ./.git
-echo '>>>>删除Ｇit....'
-rm -r ./.git
-echo '>>>>初始化Git....'
-git init
+# echo '>>>>授权....'
+# chmod -R 777 ./.git
+# echo '>>>>删除Ｇit....'
+# rm -r ./.git
+# echo '>>>>初始化Git....'
+# git init
+echo '>>>>拉取'
+git pull origin master
 echo '>>>>添加至Git缓存区....'
 git add --all
 echo '>>>>提交....'
