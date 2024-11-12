@@ -1,0 +1,138 @@
+{
+  "favicon": "@favicon.svg",
+  "logo": "@logo.svg",
+  "title": "@title",
+  "meta": {
+    "keywords": "PassStore，密码管理，NESP，NESP Technology，账号本，密码本.",
+    "description": "@description",
+    "baidu-site-verification": "85qEicDav0"
+  },
+  "header": {
+    "title": "@header-title"
+  },
+  "i18n": {
+    "src": "l18n",
+    "default": "en"
+  },
+  "menu": [
+    {
+      "title": "@menu-download",
+      "link": "#download",
+      "disallowActive": false
+    },
+    {
+      "title": "@menu-contact-us",
+      "link": "#contact",
+      "disallowActive": false
+    },
+    {
+      "title": "@menu-privacy-policy",
+      "link": "@privacy-policy-url",
+      "disallowActive": true
+    },
+    {
+      "title": "@menu-terms-of-service",
+      "link": "@terms-of-service-url",
+      "disallowActive": true
+    }
+  ],
+  "headerSection": {
+    "title": "@header-section-title",
+    "subtitle": "@header-section-subtitle",
+    "media": {
+      "src": "@main.png",
+      "type": "Image"
+    }
+  },
+  "aboutSection": [
+    {
+      "title": "@content-section-1-title",
+      "description": "@content-section-1-description",
+      "media": {
+        "src": "@password_generator.png",
+        "type": "Image"
+      }
+    },
+    {
+      "title": "@content-section-2-title",
+      "description": "@content-section-2-description",
+      "media": {
+        "src": "@import_file.png",
+        "type": "Image"
+      }
+    },
+    {
+      "title": "@content-section-3-title",
+      "description": "@content-section-3-description",
+      "media": {
+        "src": "@lock_fingerprint.png",
+        "type": "Image"
+      }
+    },
+    {
+      "title": "@content-section-4-title",
+      "description": "@content-section-4-description",
+      "media": {
+        "src": "@tag_list.png",
+        "type": "Image"
+      }
+    }
+  ],
+  "downloadSection": {
+    "android": {
+      "url": "https://github.com/nespjin/passstore/releases/download/v1.3.0/passstore_1.3.0_build13_202411121316.apk",
+      "version": "v1.3.0"
+    }   
+  },
+  "contactSection": [
+    {
+      "icon": "@qq.png",
+      "title": "@contact-section-title-qq",
+      "type": "link",
+      "tip": null,
+      "url": "https://qm.qq.com/cgi-bin/qm/qr?k=_nK-VMySe94d9xF1hwoyr7qNfEGHYzSw&jump_from=webapi"
+    },
+    {
+      "icon": "@wechat.png",
+      "title": "@contact-section-title-wechat",
+      "tip": "@contact-section-tip-wechat",
+      "type": "qrcode",
+      "url": "@wechat_nesp.jpg"
+    },
+    {
+      "icon": "@weibo.png",
+      "title": "@contact-section-title-weibo",
+      "tip": null,
+      "type": "link",
+      "url": "https://weibo.com/u/7354823000"
+    },
+    {
+      "icon": "@yotube.svg",
+      "title": "@contact-section-title-youtube",
+      "tip": null,
+      "type": "link",
+      "url": "https://www.youtube.com/channel/UCHlUa5ZJtFQNzg0oOzn0zvg"
+    },
+    {
+      "icon": "@x.svg",
+      "title": "@contact-section-title-x",
+      "tip": null,
+      "type": "link",
+      "url": "https://x.com/NESPGlobal"
+    },
+    {
+      "icon": "@email.png",
+      "title": "@contact-section-title-email",
+      "tip": null,
+      "type": "link",
+      "url": "mailto:nesptech@outlook.com"
+    }
+  ],
+  "footerSection": {
+    "copyright": {
+      "year": "2024",
+      "owner": "NESP Tech",
+      "product": "PassStore"
+    }
+  }
+}
