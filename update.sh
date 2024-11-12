@@ -30,6 +30,7 @@ git remote add origin https://github.com/nespjin/passstore.git
 echo '>>>>推送至远程仓库....'
 # git push -vf origin master
 for i in {1..5}; do git push -vf origin master && break || sleep 15; done
+for i in {1..5}; do git push -vf origin --tags && break || sleep 15; done
 
 # echo '>>>>建立Pages....'
 # curl -X POST --header 'Content-Type: application/json;charset=UTF-8' 'https://gitee.com/api/v5/repos/nesp/passstore/pages/builds' -d '{"access_token":""}'
